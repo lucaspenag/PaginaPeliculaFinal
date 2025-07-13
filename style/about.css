@@ -1,5 +1,5 @@
 main{    
-    display:grid;
+    /* display:grid;
     grid-template-rows: auto;
     grid-template-columns: 1fr 1fr;
     column-gap: 3rem;
@@ -9,10 +9,12 @@ main{
     "imagen locacion"
     "imagen filmacion"
     "imagen bandaSonora"
-    "musica musica";
+    "musica musica"; */
+    /* display: flex;
+    flex-direction: column; */
 }
 
-#sinopsis{
+/* #sinopsis{
     grid-area:sinopsis;
 }
 #locacion{
@@ -23,14 +25,16 @@ main{
 }
 #bandaSonora{
     grid-area:bandaSonora;
-}
+} */
 
 #divMusica{
-    grid-area: musica;
+    /* grid-area: musica; */
     text-align: center;
 }
-
+figure{
+    text-align: center;
+}
 img{
     height: 500px;
-    width: 100%;
+    width: 700px;
 }

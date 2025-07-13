@@ -1,30 +1,17 @@
-main{    
-    display:grid;
-    grid-template-rows: auto;
-    grid-template-columns: 1fr 1fr;
-    row-gap: 4rem;
-    grid-template-areas: 
-    "img texto"
-    "video1 video1"
-    "video2 video2";
-}
+
 
 #video1{
-    grid-area: video1;
     text-align: center;
 }
 
 #video2{
-    grid-area: video2;
     text-align: center;
 }
 
 #sectionImg{
-    grid-area: img;
     text-align: center;
 }
 
 #sectionTxt{
-    grid-area: texto;
     text-align: center;
 }

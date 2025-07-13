@@ -1,33 +1,27 @@
 h2{
     grid-area: h2;
 }
-#sectionCast{
-    display:grid;
-    grid-template-rows: auto;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: 
-    "div div";
-}
 
 #divCast{
     grid-area:div;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    gap:20px;
+    flex-direction:row;
 }
 
 .figureReparto{
-    width: 30%;
     margin-bottom: 20px;
     box-sizing: border-box;
     text-align: center;
+    flex: 0 0 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .imgReparto{    
     height: auto;
     display:block;
-    margin: 0 auto;
     border-style:solid;
     border-color: #E86A68;
     border-radius: 12px;
@@ -37,4 +31,20 @@ h2{
 
 figcaption{
     padding: 10px 0px;
+    width: 245px;
+}
+
+@media (max-width:1024px){
+    .figureReparto{   
+    flex: 0 0 50%;
+}
+    
+}
+@media (max-width:425px){
+    #divCast{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    
 }

@@ -1,39 +1,23 @@
-main{    
-    display:grid;
-    grid-template-rows: auto;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 3rem;
-    row-gap: 5rem;
-    grid-template-areas: 
-    "desarrollo desarrollo"
-    "diseñoSet diseñoSet"
-    "diseñoVestuario diseñoVestuario"
-}
-
-#desarrollo{
-    grid-area:desarrollo;
-}
-
-#diseñoSet{
-    grid-area:diseñoSet;
-}
-
-#diseñoVestuario{
-    grid-area:diseñoVestuario;
-}
-
-.contenido{
-    display:grid;
-    grid-template-rows: auto;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 3rem;
-}
-
 figure{
     text-align: center;
 }
 
-#imagenDiseñoSet{
-    width: 700px;
+.imagenes{
+    width: 40vw;
     height: 500px;
+}
+
+@media (max-width:768px){
+    .imagenes{
+        width: 80vw;
+        height: 25vh;
+    }
+    #imgWes{
+        width: 80vw;
+    }
+}
+@media (max-width:425px){
+    .imagenes{
+        height: 20vh;
+    }
 }

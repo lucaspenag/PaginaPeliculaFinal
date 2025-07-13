@@ -41,13 +41,11 @@ figcaption{
     figcaption{
         font-size: 25px;
     }
-    
 }
 @media (max-width:425px){
     #divCast{
         flex-direction: column;
-        align-items: center;
-        
+        align-items: center;   
     }
     
 }

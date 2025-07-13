@@ -1,40 +1,23 @@
-main{    
-    /* display:grid;
-    grid-template-rows: auto;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 3rem;
-    row-gap: 5rem;
-    grid-template-areas: 
-    "imagen sinopsis"
-    "imagen locacion"
-    "imagen filmacion"
-    "imagen bandaSonora"
-    "musica musica"; */
-    /* display: flex;
-    flex-direction: column; */
-}
-
-/* #sinopsis{
-    grid-area:sinopsis;
-}
-#locacion{
-    grid-area:locacion;
-}
-#filmacion{
-    grid-area:filmacion;
-}
-#bandaSonora{
-    grid-area:bandaSonora;
-} */
-
 #divMusica{
-    /* grid-area: musica; */
     text-align: center;
 }
 figure{
     text-align: center;
 }
-img{
+/* img{
     height: 500px;
     width: 700px;
+} */
+.imagenes{
+    width: 40vw;
+    height: 500px;
+}
+
+
+
+@media (max-width:768px){
+    .imagenes{
+        width: 80vw;
+        height: 25vh;
+}
 }

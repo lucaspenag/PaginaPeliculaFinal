@@ -1,17 +1,32 @@
 
 
-#video1{
+/* #video1{
     text-align: center;
 }
 
 #video2{
     text-align: center;
 }
+*/
+/* #sectionImg{
+    text-align: center;
+} */
 
-#sectionImg{
+#sectionTxt{
+    text-align: center;
+} 
+
+figure{
     text-align: center;
 }
 
-#sectionTxt{
+.imagenes{
+    width: 40vw;
+    height: 500px;
+}
+
+.video{
+    width: 40vw;
+    height: 500px;
     text-align: center;
 }

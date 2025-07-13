@@ -1,0 +1,36 @@
+main{    
+    display:grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 3rem;
+    row-gap: 5rem;
+    grid-template-areas: 
+    "imagen sinopsis"
+    "imagen locacion"
+    "imagen filmacion"
+    "imagen bandaSonora"
+    "musica musica";
+}
+
+#sinopsis{
+    grid-area:sinopsis;
+}
+#locacion{
+    grid-area:locacion;
+}
+#filmacion{
+    grid-area:filmacion;
+}
+#bandaSonora{
+    grid-area:bandaSonora;
+}
+
+#divMusica{
+    grid-area: musica;
+    text-align: center;
+}
+
+img{
+    height: 500px;
+    width: 100%;
+}

@@ -1,0 +1,40 @@
+h2{
+    grid-area: h2;
+}
+#sectionCast{
+    display:grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "div div";
+}
+
+#divCast{
+    grid-area:div;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap:20px;
+}
+
+.figureReparto{
+    width: 30%;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.imgReparto{    
+    height: auto;
+    display:block;
+    margin: 0 auto;
+    border-style:solid;
+    border-color: #E86A68;
+    border-radius: 12px;
+    width: 245px;
+    height: 313px;
+}
+
+figcaption{
+    padding: 10px 0px;
+}

@@ -1,0 +1,61 @@
+.ulStyle li a{
+    text-decoration: underline;
+    color: #333;
+    transition: text-decoration 0.3s ease,color 0.3 ease;
+}
+.ulStyle li p{
+    color: #5C2028;
+    transition: color 0.3 ease;
+}
+
+.ulStyle li a:hover{
+    text-decoration: none;
+    color:#5C2028;
+}
+
+.ulStyle li:hover p{
+    color:black;
+}
+
+main{
+    text-align: center;    
+    display:grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr;
+    column-gap: 3rem;
+    row-gap: 3rem;
+    grid-template-areas: 
+    "enlaces"
+    "formulario";
+}
+.pContacto{
+    padding-top: 10px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    grid-area: formulario;
+}
+
+#email{
+    margin-right: 72px;
+}
+
+#enlaces{
+    grid-area: enlaces;
+}
+
+#buttonEnviar{
+    background: transparent;
+    border-style:solid;
+    border-color: #E86A68;
+    color: #5C2028;
+}
+
+#buttonEnviar:hover{
+    cursor: pointer;
+    background-color:#5C2028;
+    color:#FFECAF;
+}

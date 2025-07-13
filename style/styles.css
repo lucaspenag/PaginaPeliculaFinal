@@ -1,0 +1,118 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #FFECAF;
+    color: #5C2028;
+    font-family: 'Josefin Sans';
+    display:grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "header header"
+    "main main"
+    "footer footer";
+background-color: #ffecaf;
+background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%23a494bf' fill-opacity='0.4'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+header{
+    text-align: center;
+    grid-area: header;
+    margin:20px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:1rem;
+}
+main{
+    grid-area:main;
+    padding: 20px 190px;
+}
+footer{
+    grid-area:footer;
+    text-align: center;
+    margin-bottom: 15px;
+}
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 32px;
+    padding: 10px 0px;
+}
+h3{
+    font-size: 24px;
+}
+p{
+    font-size: 1.35rem;
+    line-height: 30px;
+}
+nav{
+    margin:0 auto;
+    width: 48%;
+}
+hr{
+    background-color: #5C2028;
+    border:none;
+    height: 2px;
+}
+.hrlength{
+    width: 700px;
+}
+.subrayado{
+    text-decoration: underline;
+}
+#navList{
+    list-style-type: none;
+    margin:0px;
+    padding:0;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.ulStyle{
+    list-style-type: none;
+}
+
+.imgBorder{
+    border-style:solid;
+    border-color: #E86A68;
+    border-radius: 12px;
+}
+.aList{
+    text-decoration: none;
+    color: #5C2028;
+    font-size: 25px;
+}
+
+.aList:hover{
+    background-color: #5C2028;
+    color: #FFECAF;
+}
+.navItem{
+    margin-right: 1rem;
+    border-style:solid;
+    border-color: #E86A68;
+    padding: 5px;
+}
+
+.textoImagen{
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+    text-align: center;
+    font-style: italic;
+}
+.textoP{
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+#mainContact{
+    height: 725px;
+}

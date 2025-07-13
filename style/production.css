@@ -7,17 +7,12 @@ figure{
     height: 500px;
 }
 
-@media (max-width:768px){
+@media (max-width:1024px){
     .imagenes{
         width: 80vw;
         height: 25vh;
     }
     #imgWes{
         width: 80vw;
-    }
-}
-@media (max-width:425px){
-    .imagenes{
-        height: 20vh;
     }
 }

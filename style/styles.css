@@ -10,13 +10,6 @@ body{
     background-color: #FFECAF;
     color: #5C2028;
     font-family: 'Josefin Sans';
-    /* display:grid;
-    grid-template-rows: auto;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: 
-    "header header"
-    "main main"
-    "footer footer"; */
     display:flex;
     flex-direction: column;
     gap:3rem;
@@ -68,6 +61,9 @@ hr{
 .contenido{
     display:flex;
     flex-direction: row; 
+    
+    background-color: rgba(255,236,175,0.5);
+    backdrop-filter: blur(2px);
 }
 
 .contenido div{
@@ -159,9 +155,19 @@ hr{
         line-height: 2.5rem;
         padding: 0 40px;
     }
+    .contenido figure figcaption{
+        font-size: 30px;
+    }
+    .contenido figure{
+        padding: 30px 0;
+    }
+    footer{
+        font-size:25px;
+    }
 }
 @media (max-width:425px){
     .contenido p{
         text-align: center;
-    }
+        padding: 0 20px;
+    }   
 }

@@ -59,7 +59,22 @@ form{
     background-color:#5C2028;
     color:#FFECAF;
 }
-
+@media(max-width:768px){
+    .pContacto{
+        font-size: 1.5rem;
+    }
+    p{
+        font-size: 1.5rem;
+    }
+    form{
+        font-size: 1.3rem;
+    }
+}
+@media(max-width:425px){
+    footer{
+        font-size:1.25rem;
+    }
+}
 @media(max-width:375px){
     #enlaces{
         width: 90vw;

@@ -52,3 +52,9 @@ figure{
         height: 70vw;
     }
  }
+
+ @media(max-width:320px){
+    iframe{
+        width:85vw;
+    }
+}

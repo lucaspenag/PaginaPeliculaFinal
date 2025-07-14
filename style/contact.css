@@ -59,3 +59,31 @@ form{
     background-color:#5C2028;
     color:#FFECAF;
 }
+
+@media(max-width:375px){
+    #enlaces{
+        width: 90vw;
+    }
+    body{
+        align-items: center;
+    }
+    main{
+        width: 90vw;
+    }
+
+    #mensaje{
+        width: 90vw;
+    }
+    form{
+        align-items: center;
+    }
+    #email{
+        margin: 0;
+    }
+}
+
+@media(max-width:320px){
+    #primeraImagen{
+        font-size: 14px;
+    }
+}

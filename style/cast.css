@@ -1,9 +1,4 @@
-h2{
-    grid-area: h2;
-}
-
 #divCast{
-    grid-area:div;
     display: flex;
     flex-wrap: wrap;
     flex-direction:row;

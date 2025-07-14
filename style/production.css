@@ -3,10 +3,6 @@ figure{
 }
 
 @media (max-width:1024px){
-    /* .imagenes{
-        width: 80vw;
-        height: 50vh;
-    } */
     #imgWes{
         width: 80vw;
     }

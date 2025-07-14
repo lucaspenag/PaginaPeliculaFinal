@@ -30,3 +30,25 @@ figure{
     height: 500px;
     text-align: center;
 }
+
+ @media (max-width:1024px){
+    .video{
+        width: 80vw;
+    }
+    .contenido{
+        align-items: center;
+        gap: 30px;
+    }
+ }
+  @media (max-width:1024px){
+    iframe{
+        width: auto;
+        height: auto;
+    }
+ }
+
+ @media (max-width:425px){
+    .imagenes{
+        height: 70vw;
+    }
+ }

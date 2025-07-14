@@ -1,23 +1,54 @@
 main{    
-    display:grid;
+    /* display:grid;
     grid-template-rows: auto;
     grid-template-columns: 1fr 1fr;
     row-gap: 2rem;
     grid-template-areas: 
     "poster poster"
     "trama trama"
-    "trailer trailer";
+    "trailer trailer"; */
 }
 
 #trailer{
-    grid-area:trailer;
+    /* grid-area:trailer; */
     text-align: center;
 }
 #trama{
-    grid-area:trama;
+    /* grid-area:trama; */
     text-align: center;
 }
 #poster{
-    grid-area:poster;
+    /* grid-area:poster; */
     text-align: center;
+}
+
+@media(max-width:1024px){
+    p{
+        font-size: 30px;
+        line-height: 2.5rem;
+    }
+}
+@media(max-width:768px){
+    p{
+        font-size: 30px;
+        line-height: 2.5rem;
+    }
+}
+
+@media(max-width:425px){
+    main{
+        align-items: center;
+    }
+    img{
+        width: 80vw;
+    }
+    #trailer{
+        width: 100vw;
+    }
+    iframe{
+        width: 90vw;
+    }
+    .textoP{
+        padding: 0px 10px;
+    }
 }

@@ -126,7 +126,10 @@ hr{
 #mainContact{
     height: 725px;
 }
-
+.imagenes{
+    width: 40vw;
+    height: 500px;
+}
 
 @media (max-width:1024px){
     #navList{
@@ -160,6 +163,10 @@ hr{
     }
     footer{
         font-size:25px;
+    }
+    .imagenes{
+        width: 80vw;
+        height: 50vh;  
     }
 }
 

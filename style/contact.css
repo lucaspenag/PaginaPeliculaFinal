@@ -70,11 +70,7 @@ form{
         font-size: 1.3rem;
     }
 }
-@media(max-width:425px){
-    footer{
-        font-size:1.25rem;
-    }
-}
+
 @media(max-width:375px){
     #enlaces{
         width: 90vw;

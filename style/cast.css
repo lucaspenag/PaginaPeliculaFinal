@@ -27,6 +27,9 @@
 figcaption{
     padding: 10px 0px;
     width: 245px;
+    background-color: rgba(255,236,175,0.5);
+    backdrop-filter: blur(2px);
+    border-radius: 12px;
 }
 
 @media (max-width:1024px){

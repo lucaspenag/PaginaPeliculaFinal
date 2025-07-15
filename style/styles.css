@@ -62,6 +62,7 @@ hr{
     flex-direction: row; 
     background-color: rgba(255,236,175,0.5);
     backdrop-filter: blur(2px);
+    border-radius: 12px;
 }
 
 .contenido div{

@@ -3,6 +3,9 @@
 }
 #trama{
     text-align: center;
+    background-color: rgba(255,236,175,0.5);
+    backdrop-filter: blur(2px);
+    border-radius: 12px;
 }
 #poster{
     text-align: center;

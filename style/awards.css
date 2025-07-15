@@ -8,7 +8,7 @@ figure{
 
 .imagenes{
     width: 40vw;
-    height: 500px;
+    height: 60vh;
 }
 
 .video{
@@ -29,11 +29,14 @@ figure{
         width: 80vw;
         height: 30vh;
     }
+    .imagenes{
+        height: 40vh;
+    }
  }
 
  @media (max-width:425px){
     .imagenes{
-        height: 70vw;
+        height: 25vh;
     }
     iframe{
         height: auto;
